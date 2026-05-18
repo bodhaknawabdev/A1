@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-    width: 95%;
-    height: 93vh;
+    width: 97%;
+    height: calc(100% - 2%);
     margin: 30px auto;
     display: flex;
     border-radius: 20px;
@@ -20,7 +20,7 @@ body {
 
 .left {
     width: 60%;
-    background: #fbc50b;
+    background: #fcc60c;
     padding-left: 100px;
     position: relative;   /* IMPORTANT */
 }
@@ -33,24 +33,24 @@ body {
 }
 
 .logo {
-    width: 180px;
+    width: 150px;
     position: absolute;
     top: 40px;
     left: 70px;
 }
 
 .small-text {
-    margin-top: 210px;
+    margin-top: 180px;
     letter-spacing: 3px;
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 h1 {
-    font-size: 170px;
+    font-size: 130px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: -10px;
 }
 
@@ -60,13 +60,14 @@ h1 {
     color: #333;
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .footer {
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
+    margin-bottom: 160px;
 }
 
 .footer span{
@@ -84,12 +85,13 @@ h1 {
 
 
 .pokeball {
-    position: absolute;
-    bottom: -90px;
-    left: 60px;
     
-    width: 270px;
-    height: 270px;
+    position: absolute;
+    bottom: -60px;
+    left: 70px;
+    
+    width: 190px;
+    height: 190px;
     
     border: 15px solid  #e2b20a;
     border-radius: 180px ;
@@ -115,8 +117,8 @@ h1 {
 .inner-circle {
     position: absolute;
     
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     
     background: #fbc50b;
     border-radius: 50%;
@@ -132,8 +134,8 @@ h1 {
     width: 100%;
     position: absolute;
     align-self: center;
-    top: 100px;
-    left: -273px;
+    top: 50px;
+    left: -222px;
 }
 
 .menu {
